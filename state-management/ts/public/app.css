@@ -1,0 +1,49 @@
+.section-root {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+  border-bottom: 1px solid gray;
+  margin-bottom: 20px;
+}
+.section-header {
+  font-size: 13px;
+  padding-bottom: 10px;
+}
+.section-input, .section-select {
+  font-size: 30px;
+  border: none;
+  outline: none;
+}
+.section-select {
+  width: 100%;
+}
+.header-root {
+  font-weight: bold;
+  font-size: 20px;
+}
+.header-paragraph {
+  color: dodgerblue;
+  font-size: 13px;
+  margin-block-start: unset;
+}
+.error {
+  color: red;
+  border-bottom: 1px solid red;
+}
+.register-number-left-input {
+  width: 105px;
+}
+.hypen {
+  font-size: 20px;
+  margin-right: 4px;
+}
+.register-number-right-input {
+  width: 20px;
+}
+.register-number-input-wrapper {
+  display: flex;
+}
+.submit-button {
+  width: 100%;
+  padding: 20px 0px;
+}
